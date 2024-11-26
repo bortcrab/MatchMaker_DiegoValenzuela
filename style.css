@@ -105,6 +105,7 @@ fieldset {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
+    transform: rotate(-5deg);
 }
 
 header .match-name {
@@ -117,5 +118,23 @@ header .match-name {
     font-size: 1.8rem;
     font-weight: 650;
     color: #EC789A;
+    margin: 0;
+}
+
+.match-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.match-info p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.match-info strong {
+    font-weight: bold;
+    color: #333;
 }
 
