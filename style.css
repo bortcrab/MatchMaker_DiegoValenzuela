@@ -138,3 +138,8 @@ header .match-name {
     color: #333;
 }
 
+.selected {
+    outline-style: solid;
+    outline-color: #F05D71;
+    outline-width: 2px;
+}
